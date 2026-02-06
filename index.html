@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postuler à une offre | Centre de Formation Web4All</title>
+    <meta name="description" content="Déposez votre candidature pour nos offres de stages et alternances en quelques clics.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Web4All - Recrutement</h1>
+        <nav>
+            <a href="#formulaire">Postuler</a>
+            <a href="mentions-legales.html">Mentions Légales</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Rejoignez notre centre de formation</h2>
+            <p>Remplissez le formulaire ci-dessous pour soumettre votre dossier.</p>
+        </section>
+
+        <section id="formulaire" class="form-container">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" required placeholder="Ex: Jean Dupont">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email professionnel</label>
+                    <input type="email" id="email" name="email" required placeholder="contact@domaine.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="cv">Déposer votre CV (PDF)</label>
+                    <input type="file" id="cv" name="cv" accept=".pdf" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Lettre de motivation (optionnel)</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Envoyer ma candidature</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Web4All - Tous droits réservés.</p>
+        <p><a href="mentions-legales.html">Politique de confidentialité et Cookies</a></p>
+    </footer>
+
+</body>
+</html>
